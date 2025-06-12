@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
-      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -24,7 +22,9 @@
     <header class="header">
       <div class="header-div container">
         <nav class="header-nav">
-          <a href="./index.html" class="logo">Web<span>Studio</span></a>
+          <a href="./index.html" class="logo header-logo"
+            >Web<span>Studio</span></a
+          >
           <ul class="header-list">
             <li>
               <a href="./index.html" class="header-menu header-menu-active"
@@ -53,18 +53,59 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-btn">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-header-icon"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="container mobile-menu-container">
+          <button type="button" class="mobile-menu-close">
+            <svg class="mobile-close-svg" width="8" height="8">
+              <use href="./images/icons.svg#icon-x-btn"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <ul class="mobile-menu-list">
+              <li>
+                <a href="./index.html" class="mobile-menu-item">Studio</a>
+              </li>
+              <li>
+                <a href="" class="mobile-menu-item">Portfolio</a>
+              </li>
+              <li>
+                <a href="" class="mobile-menu-item">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <address class="mobile-address">
+            <ul class="mobile-address-list">
+              <li>
+                <a href="mailto:info@devstudio.com" class="mobile-address-item"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+110001111111" class="mobile-address-item"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
     <main>
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button type="button" class="hero-btn" data-modal-open>
             Order Service
           </button>
         </div>
-      </section>
-      <section class="strengths">
+      </section> -->
+      <!-- <section class="strengths">
         <div class="container">
           <h2 class="visually-hidden">Our strengths</h2>
           <ul class="strenghts-list">
@@ -120,8 +161,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-our-team">
+      </section> -->
+      <!-- <section class="section-our-team">
         <div class="container">
           <h2 class="our-team">Our Team</h2>
           <ul class="team-list">
@@ -363,8 +404,8 @@
             </li>
           </ul>
         </div>
-      </section>
-      <section class="section-portfolio">
+      </section> -->
+      <!-- <section class="section-portfolio">
         <div class="container">
           <h2 class="portfolio">Our Portfolio</h2>
           <ul class="portfolio-list">
@@ -496,9 +537,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-logo-container">
           <a href="./index.html" class="footer-logo"
@@ -580,9 +621,9 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <div class="backdrop" data-modal>
+    <!-- <div class="backdrop" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-svg" width="8" height="8">
@@ -655,7 +696,7 @@
           <button type="button" class="modal-btn">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
     <script src="./js/modal.js"></script>
   </body>
