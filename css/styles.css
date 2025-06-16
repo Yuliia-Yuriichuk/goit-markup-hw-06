@@ -808,7 +808,8 @@ nav span {
     display: inline-block;
     margin-right: 102px;
     margin-left: 102px;
-  
+  margin-bottom: 16px;
+   
 }
 
 .footer-logo-studio {
