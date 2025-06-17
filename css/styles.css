@@ -503,7 +503,7 @@ nav span {
         text-align: left;
     }
     .strengths-text {
-        font-weight: 400;   
+        font-weight: 500;   
     }
     .strenghts-list-item {
         width: calc((100% - 24px) / 2);
@@ -525,7 +525,7 @@ nav span {
         font-size: 20px;
     }
     .strengths-text {
-        font-weight: 500;
+        font-weight: 400;
         font-size: 16px;
     }
     .strenghts-icon {
@@ -567,10 +567,11 @@ nav span {
     display: flex;
     flex-wrap: wrap;
     gap: 72px;
-    max-width: 264px;
-    margin: 0 auto;
+    justify-content: center;
 }
 .team-list-item {
+    width: 264px;
+    justify-content: center;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -631,15 +632,13 @@ nav span {
         padding-right: 108px;
     }
     .team-list {
-        max-width: 736px;
+        
         gap: 24px;
         row-gap: 72px;
       
     }
-        .team-list-item {
+     
         
-        width: calc((100% - 24px) / 2);
-        }
 }
 @media screen and (min-width: 1158px) {
     .section-our-team {
@@ -1024,10 +1023,12 @@ nav span {
         max-width: 1158px;
     }
     .footer-logo-container {
-        margin-right: 120px;   
+        margin-right: 120px;
+        margin-bottom: 0;   
         }
     .footer-media {
         margin-right: 80px;
+        margin-bottom: 0;
     }
 
 
