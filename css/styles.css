@@ -359,7 +359,7 @@ nav span {
 .hero {
     background-color: #2e2f42;
     text-align: center;
-    padding: 72px;
+    padding: 72px 0;
    
     max-width: 320px;
     width: 100%;
